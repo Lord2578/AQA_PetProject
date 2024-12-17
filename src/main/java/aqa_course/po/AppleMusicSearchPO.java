@@ -14,7 +14,7 @@ public class AppleMusicSearchPO {
     private WebElement searchBox;
 
     @FindBy(xpath = "//*[@id=\"scrollable-page\"]/main/div/div[2]/div[3]/div/div[2]/section/div[1]/ul/li[1]/div/div/div[1]/div[3]/div[1]/button")
-    private WebElement firstPost;
+    private WebElement firstMusic;
 
     public AppleMusicSearchPO() {
         WebDriver driver = getDriver();
@@ -28,6 +28,6 @@ public class AppleMusicSearchPO {
     }
 
     public void playMusic() {
-        firstPost.click();
+        firstMusic.click();
     }
 }
