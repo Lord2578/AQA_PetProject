@@ -1,16 +1,17 @@
 package aqa_course.ui;
 
 import aqa_course.bo.AppleMusicBO;
+import aqa_course.util.AllureListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(AppleMusicBO.class)
+@Listeners({AllureListener.class})
 public class StartAppleMusicTest {
     @Test
-    public void OpenPost() throws InterruptedException {
+    public void playMusic() throws InterruptedException {
 
-        AppleMusicBO redditBO = new AppleMusicBO();
-        redditBO.search("skrillex").checkResults();
-        redditBO.openMusic();
+        AppleMusicBO appleMusicBO = new AppleMusicBO();
+        appleMusicBO.search("skrillex").checkResults();
+        appleMusicBO.openMusic();
     }
 }

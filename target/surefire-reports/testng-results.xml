@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T22:37:38 EET" name="Surefire suite" finished-at="2024-12-17T22:38:11 EET" duration-ms="32705">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T22:37:38 EET" name="Surefire test" finished-at="2024-12-17T22:38:11 EET" duration-ms="32705">
+      <class name="aqa_course.ui.AlbumAppleMusicTest">
+        <test-method signature="openAlbum()[pri:0, instance:aqa_course.ui.AlbumAppleMusicTest@20ed3303]" started-at="2024-12-17T22:37:39 EET" name="openAlbum" finished-at="2024-12-17T22:38:00 EET" duration-ms="21877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAlbum -->
+      </class> <!-- aqa_course.ui.AlbumAppleMusicTest -->
+      <class name="aqa_course.ui.CheckScheduleAppleMusicTest">
+        <test-method signature="testCheckRadioSchedule()[pri:0, instance:aqa_course.ui.CheckScheduleAppleMusicTest@3adbe50f]" started-at="2024-12-17T22:38:00 EET" name="testCheckRadioSchedule" finished-at="2024-12-17T22:38:03 EET" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckRadioSchedule -->
+      </class> <!-- aqa_course.ui.CheckScheduleAppleMusicTest -->
+      <class name="aqa_course.api.Test2">
+        <test-method signature="TestMethod_2()[pri:0, instance:aqa_course.api.Test2@629f066f]" started-at="2024-12-17T22:37:39 EET" name="TestMethod_2" finished-at="2024-12-17T22:37:39 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod_2 -->
+      </class> <!-- aqa_course.api.Test2 -->
+      <class name="aqa_course.api.Test1">
+        <test-method signature="TestMethod_1()[pri:0, instance:aqa_course.api.Test1@4fe875be]" started-at="2024-12-17T22:37:38 EET" name="TestMethod_1" finished-at="2024-12-17T22:37:38 EET" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod_1 -->
+      </class> <!-- aqa_course.api.Test1 -->
+      <class name="aqa_course.api.Test3">
+        <test-method signature="TestMethod_3()[pri:0, instance:aqa_course.api.Test3@1542af63]" started-at="2024-12-17T22:37:39 EET" name="TestMethod_3" finished-at="2024-12-17T22:37:39 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod_3 -->
+      </class> <!-- aqa_course.api.Test3 -->
+      <class name="aqa_course.ui.StartAppleMusicTest">
+        <test-method signature="playMusic()[pri:0, instance:aqa_course.ui.StartAppleMusicTest@3a627c80]" started-at="2024-12-17T22:38:03 EET" name="playMusic" finished-at="2024-12-17T22:38:11 EET" duration-ms="7536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playMusic -->
+      </class> <!-- aqa_course.ui.StartAppleMusicTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

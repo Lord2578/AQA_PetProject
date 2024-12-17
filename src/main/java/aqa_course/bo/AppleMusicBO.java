@@ -5,15 +5,14 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.ISuiteListener;
-import org.testng.ITestListener;
+
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import static aqa_course.driver.DriverProvider.getDriver;
 
-public class AppleMusicBO implements ITestListener, ISuiteListener {
+public class AppleMusicBO  {
     private final WebDriver driver = getDriver();
     private final AppleMusicSearchPO appleMusicPo = new AppleMusicSearchPO();
     protected final Logger logger = LogManager.getLogger(this.getClass());
@@ -40,7 +39,7 @@ public class AppleMusicBO implements ITestListener, ISuiteListener {
             System.out.println("error while checking the results: " + e.getMessage());
         }}
 
-    @Step("Play music from search")
+    @Step("Play music from search and open it")
     public void openMusic() {
         logger.info("Playing music");
         appleMusicPo.playMusic();

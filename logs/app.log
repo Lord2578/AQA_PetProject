@@ -1,23 +1,42 @@
 2024-12-17 00:48:42 INFO  AppleMusicBO - Checking search results for musician
 2024-12-17 00:48:44 INFO  AppleMusicBO - Playing music
-2024-12-17 02:17:03 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:18:45 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:25:39 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:36:55 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:41:19 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:43:32 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:45:05 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:48:11 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 02:54:11 INFO  AppleMusicLoginBO - User starting login
-2024-12-17 04:26:45 INFO  AppleMusicChangeRegBO - navigating to apple music home page
-2024-12-17 04:26:46 INFO  AppleMusicChangeRegBO - navigate to radio tab
-2024-12-17 04:26:47 INFO  AppleMusicChangeRegBO - opening regions
-2024-12-17 04:31:08 INFO  AppleMusicChangeRegBO - navigating to apple music home page
-2024-12-17 04:31:09 INFO  AppleMusicChangeRegBO - navigate to radio tab
-2024-12-17 04:31:10 INFO  AppleMusicChangeRegBO - opening regions
-2024-12-17 04:34:58 INFO  AppleMusicChangeRegBO - navigating to apple music home page
-2024-12-17 04:34:59 INFO  AppleMusicChangeRegBO - navigate to radio tab
-2024-12-17 04:34:59 INFO  AppleMusicChangeRegBO - opening regions
-2024-12-17 04:37:35 INFO  AppleMusicChangeRegBO - navigating to apple music home page
-2024-12-17 04:37:36 INFO  AppleMusicChangeRegBO - navigate to radio tab
-2024-12-17 04:37:39 INFO  AppleMusicChangeRegBO - opening regions
+2024-12-17 15:07:45 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-17 15:07:47 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-17 15:07:47 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-17 15:07:51 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-17 15:07:52 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-17 15:37:57 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 15:37:59 INFO  AppleMusicBO - Playing music
+2024-12-17 15:47:02 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-17 15:47:05 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-17 15:49:04 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-17 15:49:06 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-17 15:49:06 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-17 15:49:08 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-17 15:49:09 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-17 15:49:42 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 15:49:44 INFO  AppleMusicBO - Playing music
+2024-12-17 15:49:44 INFO  AppleMusicBO - Opening music
+2024-12-17 15:52:07 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 15:52:09 INFO  AppleMusicBO - Playing music
+2024-12-17 15:52:09 INFO  AppleMusicBO - Opening music
+2024-12-17 15:54:10 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 15:54:12 INFO  AppleMusicBO - Playing music
+2024-12-17 15:54:54 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 15:54:56 INFO  AppleMusicBO - Playing music
+2024-12-17 15:54:56 INFO  AppleMusicBO - Opening music
+2024-12-17 17:00:33 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-17 17:00:35 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-17 17:00:38 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-17 17:00:39 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-17 22:37:50 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-17 22:37:52 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-17 22:37:59 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-17 22:37:59 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-17 22:38:00 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-17 22:38:01 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-17 22:38:01 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-17 22:38:03 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-17 22:38:03 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-17 22:38:09 INFO  AppleMusicBO - Checking search results for musician
+2024-12-17 22:38:11 INFO  AppleMusicBO - Playing music

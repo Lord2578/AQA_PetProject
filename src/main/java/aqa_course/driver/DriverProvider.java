@@ -1,5 +1,6 @@
 package aqa_course.driver;
 
+import aqa_course.util.DriverHelper;
 import aqa_course.util.PropertyReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -10,10 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DriverProvider {
     public static WebDriver driver;
 
-    /**
-     * Returns a singleton instance of WebDriver based on the specified browser in the properties file.
-     * Defaults to Chrome if no browser is specified.
-     */
     public static WebDriver getDriver() {
         if (driver == null) {
             String browser = PropertyReader.getProperty("browser");
@@ -35,18 +32,14 @@ public class DriverProvider {
                 }
             }
 
-            driver.manage().window().maximize();
+            DriverHelper.maximizeWindow(driver);
         }
         return driver;
     }
 
-    /**
-     * Quits the WebDriver instance and sets it to null.
-     */
     public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
+            DriverHelper.quitDriver(driver);
             driver = null;
-        }
+
     }
 }
