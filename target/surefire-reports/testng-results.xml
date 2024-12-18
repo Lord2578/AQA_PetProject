@@ -1,47 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T22:37:38 EET" name="Surefire suite" finished-at="2024-12-17T22:38:11 EET" duration-ms="32705">
+  <suite started-at="2024-12-18T07:30:29 EET" name="Surefire suite" finished-at="2024-12-18T07:31:10 EET" duration-ms="41220">
     <groups>
     </groups>
-    <test started-at="2024-12-17T22:37:38 EET" name="Surefire test" finished-at="2024-12-17T22:38:11 EET" duration-ms="32705">
+    <test started-at="2024-12-18T07:30:29 EET" name="Surefire test" finished-at="2024-12-18T07:31:10 EET" duration-ms="41220">
+      <class name="aqa_course.api.CreateCardTest">
+        <test-method signature="testCreateCard(java.lang.String,java.lang.String)[pri:0, instance:aqa_course.api.CreateCardTest@626c19cf]" started-at="2024-12-18T07:30:34 EET" name="testCreateCard" data-provider="cardDataProvider" finished-at="2024-12-18T07:30:37 EET" duration-ms="2689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[List 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Card 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCard -->
+      </class> <!-- aqa_course.api.CreateCardTest -->
       <class name="aqa_course.ui.AlbumAppleMusicTest">
-        <test-method signature="openAlbum()[pri:0, instance:aqa_course.ui.AlbumAppleMusicTest@20ed3303]" started-at="2024-12-17T22:37:39 EET" name="openAlbum" finished-at="2024-12-17T22:38:00 EET" duration-ms="21877" status="PASS">
+        <test-method signature="openAlbum()[pri:0, instance:aqa_course.ui.AlbumAppleMusicTest@6d229b1c]" started-at="2024-12-18T07:30:39 EET" name="openAlbum" finished-at="2024-12-18T07:30:52 EET" duration-ms="13098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAlbum -->
       </class> <!-- aqa_course.ui.AlbumAppleMusicTest -->
       <class name="aqa_course.ui.CheckScheduleAppleMusicTest">
-        <test-method signature="testCheckRadioSchedule()[pri:0, instance:aqa_course.ui.CheckScheduleAppleMusicTest@3adbe50f]" started-at="2024-12-17T22:38:00 EET" name="testCheckRadioSchedule" finished-at="2024-12-17T22:38:03 EET" duration-ms="3012" status="PASS">
+        <test-method signature="testCheckRadioSchedule()[pri:0, instance:aqa_course.ui.CheckScheduleAppleMusicTest@6f825516]" started-at="2024-12-18T07:30:52 EET" name="testCheckRadioSchedule" finished-at="2024-12-18T07:30:55 EET" duration-ms="2577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckRadioSchedule -->
       </class> <!-- aqa_course.ui.CheckScheduleAppleMusicTest -->
-      <class name="aqa_course.api.Test2">
-        <test-method signature="TestMethod_2()[pri:0, instance:aqa_course.api.Test2@629f066f]" started-at="2024-12-17T22:37:39 EET" name="TestMethod_2" finished-at="2024-12-17T22:37:39 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMethod_2 -->
-      </class> <!-- aqa_course.api.Test2 -->
-      <class name="aqa_course.api.Test1">
-        <test-method signature="TestMethod_1()[pri:0, instance:aqa_course.api.Test1@4fe875be]" started-at="2024-12-17T22:37:38 EET" name="TestMethod_1" finished-at="2024-12-17T22:37:38 EET" duration-ms="69" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMethod_1 -->
-      </class> <!-- aqa_course.api.Test1 -->
-      <class name="aqa_course.api.Test3">
-        <test-method signature="TestMethod_3()[pri:0, instance:aqa_course.api.Test3@1542af63]" started-at="2024-12-17T22:37:39 EET" name="TestMethod_3" finished-at="2024-12-17T22:37:39 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMethod_3 -->
-      </class> <!-- aqa_course.api.Test3 -->
       <class name="aqa_course.ui.StartAppleMusicTest">
-        <test-method signature="playMusic()[pri:0, instance:aqa_course.ui.StartAppleMusicTest@3a627c80]" started-at="2024-12-17T22:38:03 EET" name="playMusic" finished-at="2024-12-17T22:38:11 EET" duration-ms="7536" status="PASS">
+        <test-method signature="playMusic()[pri:0, instance:aqa_course.ui.StartAppleMusicTest@2da99821]" started-at="2024-12-18T07:30:55 EET" name="playMusic" finished-at="2024-12-18T07:31:02 EET" duration-ms="7512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- playMusic -->
+        <test-method signature="playMusicFail()[pri:0, instance:aqa_course.ui.StartAppleMusicTest@2da99821]" started-at="2024-12-18T07:31:02 EET" name="playMusicFail" finished-at="2024-12-18T07:31:10 EET" duration-ms="7323" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at aqa_course.ui.StartAppleMusicTest.playMusicFail(StartAppleMusicTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playMusicFail -->
       </class> <!-- aqa_course.ui.StartAppleMusicTest -->
+      <class name="aqa_course.api.CreateBoardTest">
+        <test-method signature="testCreateBoard(java.lang.String)[pri:0, instance:aqa_course.api.CreateBoardTest@5e5beb8a]" started-at="2024-12-18T07:30:29 EET" name="testCreateBoard" data-provider="boardDataProvider" finished-at="2024-12-18T07:30:34 EET" duration-ms="5285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Board 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBoard -->
+      </class> <!-- aqa_course.api.CreateBoardTest -->
+      <class name="aqa_course.api.CreateListTest">
+        <test-method signature="testCreateList(java.lang.String,java.lang.String)[pri:0, instance:aqa_course.api.CreateListTest@54a2d96e]" started-at="2024-12-18T07:30:37 EET" name="testCreateList" data-provider="listDataProvider" finished-at="2024-12-18T07:30:39 EET" duration-ms="2016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Board Alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[List A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateList -->
+      </class> <!-- aqa_course.api.CreateListTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

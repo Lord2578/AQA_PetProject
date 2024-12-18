@@ -40,3 +40,216 @@
 2024-12-17 22:38:03 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
 2024-12-17 22:38:09 INFO  AppleMusicBO - Checking search results for musician
 2024-12-17 22:38:11 INFO  AppleMusicBO - Playing music
+2024-12-18 00:44:16 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 00:44:18 INFO  AppleMusicBO - Playing music
+2024-12-18 00:44:24 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 00:44:26 INFO  AppleMusicBO - Playing music
+2024-12-18 00:46:47 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-18 00:46:49 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-18 00:46:52 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-18 00:46:53 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-18 00:46:54 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-18 00:46:55 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-18 00:46:55 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-18 00:46:58 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-18 00:46:58 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-18 00:47:04 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 00:47:06 INFO  AppleMusicBO - Playing music
+2024-12-18 00:47:11 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 00:50:56 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-18 00:50:58 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-18 00:50:59 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-18 00:51:00 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-18 00:51:01 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-18 00:51:02 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-18 00:51:02 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-18 00:51:04 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-18 00:51:04 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-18 00:51:10 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 00:51:12 INFO  AppleMusicBO - Playing music
+2024-12-18 00:51:17 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 02:55:19 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 02:57:16 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 02:58:24 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:04:14 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:14:47 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:19:10 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:19:14 INFO  ApiHelper - Board created with ID: 676223106a7096f8e6a05114
+2024-12-18 03:19:14 INFO  ApiHelper - Deleting board with ID: 676223106a7096f8e6a05114
+2024-12-18 03:26:23 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 03:26:23 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:26:27 INFO  ApiHelper - Board created with ID: 676224c253d1c41bda5758f6
+2024-12-18 03:26:27 INFO  CreateBoardTest - Board created with ID: 676224c253d1c41bda5758f6
+2024-12-18 03:26:27 INFO  CreateBoardTest - Verified that the board ID is not null
+2024-12-18 03:26:27 INFO  ApiHelper - Deleting board with ID: 676224c253d1c41bda5758f6
+2024-12-18 03:26:28 INFO  CreateBoardTest - Board with ID: 676224c253d1c41bda5758f6 deleted
+2024-12-18 03:37:16 INFO  CreateListTest - Starting the test to create a list
+2024-12-18 03:37:16 INFO  ApiHelper - Creating board with name: Board for List Test
+2024-12-18 03:37:20 INFO  ApiHelper - Board created with ID: 6762274f8386236137a4822a
+2024-12-18 03:37:20 INFO  CreateListTest - Board created with ID: 6762274f8386236137a4822a
+2024-12-18 03:37:20 INFO  ApiHelper - Creating list with name: Test List on board ID: 6762274f8386236137a4822a
+2024-12-18 03:37:20 INFO  ApiHelper - List created with ID: 6762275043f1d3e7eba6732a
+2024-12-18 03:37:20 INFO  CreateListTest - List created with ID: 6762275043f1d3e7eba6732a
+2024-12-18 03:37:20 INFO  CreateListTest - Verified that the list ID is not null
+2024-12-18 03:53:19 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 03:53:19 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 03:53:23 INFO  ApiHelper - Board created with ID: 67622b1231cd9dcd4c4aafc2
+2024-12-18 03:53:23 INFO  CreateBoardTest - Board created with ID: 67622b1231cd9dcd4c4aafc2
+2024-12-18 04:06:00 INFO  CreateListTest - Starting the test to create a list in the board with ID: null
+2024-12-18 04:06:00 INFO  ApiHelper - Creating list with name: Test List on board ID: null
+2024-12-18 04:09:34 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 04:09:34 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 04:09:38 INFO  ApiHelper - Board created with ID: 67622ee13f94b815500bb630
+2024-12-18 04:09:38 INFO  CreateBoardTest - Board created with ID: 67622ee13f94b815500bb630
+2024-12-18 04:14:25 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 04:14:25 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 04:14:29 INFO  ApiHelper - Board created with ID: 67623004d86382c502d5e385
+2024-12-18 04:14:29 INFO  CreateBoardTest - Board created with ID: 67623004d86382c502d5e385
+2024-12-18 04:22:11 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 04:22:16 INFO  ApiHelper - Board created with ID: 676231d691a1f7ebbce38951
+2024-12-18 04:53:01 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 04:56:44 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 04:56:44 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 04:56:48 INFO  ApiHelper - Board created with ID: 676239ee8ebbe8abc396e98c
+2024-12-18 04:56:48 INFO  CreateBoardTest - Board created with ID: 676239ee8ebbe8abc396e98c
+2024-12-18 04:57:29 INFO  CreateListUpdateCardTest - Starting the test to create a list, update its name, and add a card
+2024-12-18 04:57:29 INFO  ApiHelper - Updating list name to: Updated List Name for list ID: null
+2024-12-18 05:01:03 INFO  CreateListUpdateCardTest - Starting the test to create a list, update its name, and add a card
+2024-12-18 05:01:28 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 05:01:28 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 05:01:32 INFO  ApiHelper - Board created with ID: 67623b0a7443fb930acac15c
+2024-12-18 05:01:32 INFO  CreateBoardTest - Board created with ID: 67623b0a7443fb930acac15c
+2024-12-18 05:01:56 INFO  CreateListUpdateCardTest - Starting the test to create a list, update its name, and add a card
+2024-12-18 05:03:40 INFO  CreateBoardTest - Starting the test to create a board
+2024-12-18 05:03:41 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 05:03:44 INFO  ApiHelper - Response from board creation: {"id":"67623b8f5da0207e652d7850","name":"Test Board","desc":"","descData":null,"closed":false,"idOrganization":"675dbef0560d864c5547dd98","idEnterprise":null,"pinned":false,"url":"https://trello.com/b/VaaG42UU/test-board","shortUrl":"https://trello.com/b/VaaG42UU","prefs":{"permissionLevel":"private","hideVotes":false,"voting":"disabled","comments":"members","invitations":"members","selfJoin":true,"cardCovers":true,"cardCounts":false,"isTemplate":false,"cardAging":"regular","calendarFeedEnabled":false,"hiddenPluginBoardButtons":[],"switcherViews":[{"viewType":"Board","enabled":true},{"viewType":"Table","enabled":true},{"viewType":"Calendar","enabled":false},{"viewType":"Dashboard","enabled":false},{"viewType":"Timeline","enabled":false},{"viewType":"Map","enabled":false}],"background":"blue","backgroundColor":"#0079BF","backgroundImage":null,"backgroundTile":false,"backgroundBrightness":"dark","sharedSourceUrl":null,"backgroundImageScaled":null,"backgroundBottomColor":"#0079BF","backgroundTopColor":"#0079BF","canBePublic":true,"canBeEnterprise":true,"canBeOrg":true,"canBePrivate":true,"canInvite":true},"labelNames":{"green":"","yellow":"","orange":"","red":"","purple":"","blue":"","sky":"","lime":"","pink":"","black":"","green_dark":"","yellow_dark":"","orange_dark":"","red_dark":"","purple_dark":"","blue_dark":"","sky_dark":"","lime_dark":"","pink_dark":"","black_dark":"","green_light":"","yellow_light":"","orange_light":"","red_light":"","purple_light":"","blue_light":"","sky_light":"","lime_light":"","pink_light":"","black_light":""},"limits":{}}
+2024-12-18 05:03:44 INFO  ApiHelper - Board created with ID: 67623b8f5da0207e652d7850
+2024-12-18 05:03:44 INFO  CreateBoardTest - Board created with ID: 67623b8f5da0207e652d7850
+2024-12-18 05:04:07 INFO  CreateListUpdateCardTest - Starting the test to create a list, update its name, and add a card
+2024-12-18 06:54:06 INFO  CreateBoardTest - Starting test to create board with name: Test Board
+2024-12-18 06:54:06 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 06:54:10 INFO  ApiHelper - Board created with ID: 67625571a811540c1c8818e7
+2024-12-18 06:54:10 INFO  CreateBoardTest - Board created successfully with ID: 67625571a811540c1c8818e7
+2024-12-18 06:54:10 INFO  ApiHelper - Deleting board with ID: 67625571a811540c1c8818e7
+2024-12-18 06:54:12 INFO  ApiHelper - Board with ID: 67625571a811540c1c8818e7 deleted
+2024-12-18 06:54:12 INFO  CreateBoardTest - Test finished. Board with ID 67625571a811540c1c8818e7 deleted.
+2024-12-18 06:54:42 INFO  ApiHelper - Creating board with name: Test Board
+2024-12-18 06:54:46 INFO  ApiHelper - Board created with ID: 6762559529d1ff8b0dd2b6b0
+2024-12-18 06:54:46 INFO  UpdateBoardTest - Board created with ID: 6762559529d1ff8b0dd2b6b0
+2024-12-18 06:54:46 INFO  ApiHelper - Updating board name to: Updated Board Name for board ID: 6762559529d1ff8b0dd2b6b0
+2024-12-18 06:54:47 INFO  ApiHelper - Board name updated to: Updated Board Name
+2024-12-18 06:54:47 INFO  UpdateBoardTest - Board name updated to: Updated Board Name
+2024-12-18 06:54:47 INFO  ApiHelper - Deleting board with ID: 6762559529d1ff8b0dd2b6b0
+2024-12-18 06:54:48 INFO  ApiHelper - Board with ID: 6762559529d1ff8b0dd2b6b0 deleted
+2024-12-18 06:54:48 INFO  UpdateBoardTest - Test finished. Board with ID 6762559529d1ff8b0dd2b6b0 deleted.
+2024-12-18 06:55:14 INFO  ApiHelper - Creating board with name: Board to Delete
+2024-12-18 06:55:18 INFO  ApiHelper - Board created with ID: 676255b55489303ae1216ffd
+2024-12-18 06:55:18 INFO  DeleteBoardTest - Board created with ID: 676255b55489303ae1216ffd
+2024-12-18 06:55:18 INFO  ApiHelper - Deleting board with ID: 676255b55489303ae1216ffd
+2024-12-18 06:55:19 INFO  ApiHelper - Board with ID: 676255b55489303ae1216ffd deleted
+2024-12-18 06:55:19 INFO  DeleteBoardTest - Board with ID: 676255b55489303ae1216ffd deleted successfully
+2024-12-18 07:10:19 INFO  CreateBoardTest - Testing board creation with name: Test Board 1
+2024-12-18 07:10:19 INFO  ApiHelper - Creating board with name: Test Board 1
+2024-12-18 07:10:23 INFO  ApiHelper - Board created with ID: 6762593d47a203ea610eb05c
+2024-12-18 07:10:23 INFO  CreateBoardTest - Board created successfully with ID: 6762593d47a203ea610eb05c
+2024-12-18 07:10:23 INFO  ApiHelper - Deleting board with ID: 6762593d47a203ea610eb05c
+2024-12-18 07:10:24 INFO  ApiHelper - Board with ID: 6762593d47a203ea610eb05c deleted
+2024-12-18 07:10:24 INFO  CreateBoardTest - Board deleted with ID: 6762593d47a203ea610eb05c
+2024-12-18 07:10:24 INFO  CreateBoardTest - Testing board creation with name: Test Board 2
+2024-12-18 07:10:24 INFO  ApiHelper - Creating board with name: Test Board 2
+2024-12-18 07:10:25 INFO  ApiHelper - Board created with ID: 67625940ab5228b27bd028d7
+2024-12-18 07:10:25 INFO  CreateBoardTest - Board created successfully with ID: 67625940ab5228b27bd028d7
+2024-12-18 07:10:25 INFO  ApiHelper - Deleting board with ID: 67625940ab5228b27bd028d7
+2024-12-18 07:10:26 INFO  ApiHelper - Board with ID: 67625940ab5228b27bd028d7 deleted
+2024-12-18 07:10:26 INFO  CreateBoardTest - Board deleted with ID: 67625940ab5228b27bd028d7
+2024-12-18 07:10:26 INFO  CreateBoardTest - Testing board creation with name: Test Board 3
+2024-12-18 07:10:26 INFO  ApiHelper - Creating board with name: Test Board 3
+2024-12-18 07:10:26 INFO  ApiHelper - Board created with ID: 67625942a8cd9fb16a731d3f
+2024-12-18 07:10:26 INFO  CreateBoardTest - Board created successfully with ID: 67625942a8cd9fb16a731d3f
+2024-12-18 07:10:26 INFO  ApiHelper - Deleting board with ID: 67625942a8cd9fb16a731d3f
+2024-12-18 07:10:27 INFO  ApiHelper - Board with ID: 67625942a8cd9fb16a731d3f deleted
+2024-12-18 07:10:27 INFO  CreateBoardTest - Board deleted with ID: 67625942a8cd9fb16a731d3f
+2024-12-18 07:23:44 INFO  CreateBoardTest - Testing board creation with name: Test Board 1
+2024-12-18 07:23:44 INFO  ApiHelper - Creating board with name: Test Board 1
+2024-12-18 07:23:48 INFO  ApiHelper - Board created with ID: 67625c6314217d3f4b717fa1
+2024-12-18 07:23:48 INFO  CreateBoardTest - Board created successfully with ID: 67625c6314217d3f4b717fa1
+2024-12-18 07:23:48 INFO  ApiHelper - Deleting board with ID: 67625c6314217d3f4b717fa1
+2024-12-18 07:23:49 INFO  ApiHelper - Board with ID: 67625c6314217d3f4b717fa1 deleted
+2024-12-18 07:23:49 INFO  CreateBoardTest - Board deleted with ID: 67625c6314217d3f4b717fa1
+2024-12-18 07:24:23 INFO  CreateCardTest - Testing card creation in list: List 1 with name: Card 1
+2024-12-18 07:24:23 INFO  ApiHelper - Creating board with name: Temporary Board
+2024-12-18 07:24:27 INFO  ApiHelper - Board created with ID: 67625c89f93ab83d3a62d955
+2024-12-18 07:24:27 INFO  ApiHelper - Creating list with name: List 1 on board ID: 67625c89f93ab83d3a62d955
+2024-12-18 07:24:27 INFO  ApiHelper - List created with ID: 67625c8bf4c4cad4b4700740
+2024-12-18 07:24:27 INFO  ApiHelper - Creating card with name: Card 1 in list ID: 67625c8bf4c4cad4b4700740
+2024-12-18 07:24:27 INFO  ApiHelper - Card with name: Card 1 created in list ID: 67625c8bf4c4cad4b4700740
+2024-12-18 07:24:27 INFO  CreateCardTest - Card 'Card 1' created successfully in list ID: 67625c8bf4c4cad4b4700740
+2024-12-18 07:24:27 INFO  ApiHelper - Deleting board with ID: 67625c89f93ab83d3a62d955
+2024-12-18 07:24:28 INFO  ApiHelper - Board with ID: 67625c89f93ab83d3a62d955 deleted
+2024-12-18 07:24:28 INFO  CreateCardTest - Board deleted with ID: 67625c89f93ab83d3a62d955
+2024-12-18 07:25:13 INFO  CreateBoardTest - Testing board creation with name: Test Board 1
+2024-12-18 07:25:14 INFO  ApiHelper - Creating board with name: Test Board 1
+2024-12-18 07:25:17 INFO  ApiHelper - Board created with ID: 67625cbc4f535379769dc37b
+2024-12-18 07:25:17 INFO  CreateBoardTest - Board created successfully with ID: 67625cbc4f535379769dc37b
+2024-12-18 07:25:17 INFO  ApiHelper - Deleting board with ID: 67625cbc4f535379769dc37b
+2024-12-18 07:25:18 INFO  ApiHelper - Board with ID: 67625cbc4f535379769dc37b deleted
+2024-12-18 07:25:18 INFO  CreateBoardTest - Board deleted with ID: 67625cbc4f535379769dc37b
+2024-12-18 07:25:56 INFO  CreateCardTest - Testing card creation in list: List 1 with name: Card 1
+2024-12-18 07:25:56 INFO  ApiHelper - Creating board with name: Temporary Board
+2024-12-18 07:26:00 INFO  ApiHelper - Board created with ID: 67625ce6322248f885339d5e
+2024-12-18 07:26:00 INFO  ApiHelper - Creating list with name: List 1 on board ID: 67625ce6322248f885339d5e
+2024-12-18 07:26:00 INFO  ApiHelper - List created with ID: 67625ce8b920707251bb780e
+2024-12-18 07:26:00 INFO  ApiHelper - Creating card with name: Card 1 in list ID: 67625ce8b920707251bb780e
+2024-12-18 07:26:00 INFO  ApiHelper - Card with name: Card 1 created in list ID: 67625ce8b920707251bb780e
+2024-12-18 07:26:00 INFO  CreateCardTest - Card 'Card 1' created successfully in list ID: 67625ce8b920707251bb780e
+2024-12-18 07:26:00 INFO  ApiHelper - Deleting board with ID: 67625ce6322248f885339d5e
+2024-12-18 07:26:02 INFO  ApiHelper - Board with ID: 67625ce6322248f885339d5e deleted
+2024-12-18 07:26:02 INFO  CreateCardTest - Board deleted with ID: 67625ce6322248f885339d5e
+2024-12-18 07:27:00 INFO  CreateListTest - Testing list creation on board: Board Alpha with name: List A
+2024-12-18 07:27:00 INFO  ApiHelper - Creating board with name: Board Alpha
+2024-12-18 07:27:03 INFO  ApiHelper - Board created with ID: 67625d267b4c31dce39607a9
+2024-12-18 07:27:03 INFO  ApiHelper - Creating list with name: List A on board ID: 67625d267b4c31dce39607a9
+2024-12-18 07:27:04 INFO  ApiHelper - List created with ID: 67625d28a64d3b31ce0f448a
+2024-12-18 07:27:04 INFO  CreateListTest - List created successfully with ID: 67625d28a64d3b31ce0f448a
+2024-12-18 07:27:04 INFO  ApiHelper - Deleting board with ID: 67625d267b4c31dce39607a9
+2024-12-18 07:27:05 INFO  ApiHelper - Board with ID: 67625d267b4c31dce39607a9 deleted
+2024-12-18 07:27:05 INFO  CreateListTest - Board deleted with ID: 67625d267b4c31dce39607a9
+2024-12-18 07:30:29 INFO  CreateBoardTest - Testing board creation with name: Test Board 1
+2024-12-18 07:30:29 INFO  ApiHelper - Creating board with name: Test Board 1
+2024-12-18 07:30:33 INFO  ApiHelper - Board created with ID: 67625df87a78a8c857a14b85
+2024-12-18 07:30:33 INFO  CreateBoardTest - Board created successfully with ID: 67625df87a78a8c857a14b85
+2024-12-18 07:30:33 INFO  ApiHelper - Deleting board with ID: 67625df87a78a8c857a14b85
+2024-12-18 07:30:34 INFO  ApiHelper - Board with ID: 67625df87a78a8c857a14b85 deleted
+2024-12-18 07:30:34 INFO  CreateBoardTest - Board deleted with ID: 67625df87a78a8c857a14b85
+2024-12-18 07:30:34 INFO  CreateCardTest - Testing card creation in list: List 1 with name: Card 1
+2024-12-18 07:30:34 INFO  ApiHelper - Creating board with name: Temporary Board
+2024-12-18 07:30:35 INFO  ApiHelper - Board created with ID: 67625dfbeb2d4c336df0f16b
+2024-12-18 07:30:35 INFO  ApiHelper - Creating list with name: List 1 on board ID: 67625dfbeb2d4c336df0f16b
+2024-12-18 07:30:35 INFO  ApiHelper - List created with ID: 67625dfb52b1bd53fb2da9ca
+2024-12-18 07:30:35 INFO  ApiHelper - Creating card with name: Card 1 in list ID: 67625dfb52b1bd53fb2da9ca
+2024-12-18 07:30:36 INFO  ApiHelper - Card with name: Card 1 created in list ID: 67625dfb52b1bd53fb2da9ca
+2024-12-18 07:30:36 INFO  CreateCardTest - Card 'Card 1' created successfully in list ID: 67625dfb52b1bd53fb2da9ca
+2024-12-18 07:30:36 INFO  ApiHelper - Deleting board with ID: 67625dfbeb2d4c336df0f16b
+2024-12-18 07:30:37 INFO  ApiHelper - Board with ID: 67625dfbeb2d4c336df0f16b deleted
+2024-12-18 07:30:37 INFO  CreateCardTest - Board deleted with ID: 67625dfbeb2d4c336df0f16b
+2024-12-18 07:30:37 INFO  CreateListTest - Testing list creation on board: Board Alpha with name: List A
+2024-12-18 07:30:37 INFO  ApiHelper - Creating board with name: Board Alpha
+2024-12-18 07:30:37 INFO  ApiHelper - Board created with ID: 67625dfd8a701cfbb81ac22f
+2024-12-18 07:30:37 INFO  ApiHelper - Creating list with name: List A on board ID: 67625dfd8a701cfbb81ac22f
+2024-12-18 07:30:38 INFO  ApiHelper - List created with ID: 67625dfe8dd0f5be87c837da
+2024-12-18 07:30:38 INFO  CreateListTest - List created successfully with ID: 67625dfe8dd0f5be87c837da
+2024-12-18 07:30:38 INFO  ApiHelper - Deleting board with ID: 67625dfd8a701cfbb81ac22f
+2024-12-18 07:30:39 INFO  ApiHelper - Board with ID: 67625dfd8a701cfbb81ac22f deleted
+2024-12-18 07:30:39 INFO  CreateListTest - Board deleted with ID: 67625dfd8a701cfbb81ac22f
+2024-12-18 07:30:47 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-18 07:30:49 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-18 07:30:50 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-18 07:30:51 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-18 07:30:52 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-18 07:30:53 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-18 07:30:53 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-18 07:30:54 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-18 07:30:55 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-18 07:31:00 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 07:31:02 INFO  AppleMusicBO - Playing music
+2024-12-18 07:31:08 INFO  AppleMusicBO - Checking search results for musician

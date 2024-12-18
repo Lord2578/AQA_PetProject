@@ -1,10 +1,11 @@
 aqa_course\bo\AppleMusicBO.class
-aqa_course\po\AppleMusicAlbumPO.class
 aqa_course\util\DriverHelper.class
-aqa_course\util\PropertyReader.class
 aqa_course\util\AllureListener.class
 aqa_course\driver\DriverProvider.class
+aqa_course\bo\AppleMusicCheckScheduleBO.class
+aqa_course\po\AppleMusicAlbumPO.class
+aqa_course\util\PropertyReader.class
+aqa_course\util\ApiHelper.class
 aqa_course\bo\AppleMusicAlbumBO.class
 aqa_course\po\AppleMusicCheckSchedulePO.class
-aqa_course\bo\AppleMusicCheckScheduleBO.class
 aqa_course\po\AppleMusicSearchPO.class

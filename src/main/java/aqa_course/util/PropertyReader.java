@@ -1,22 +1,20 @@
 package aqa_course.util;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyReader {
-    static Properties property = null;
-    public static String getProperty(String key) {
-        if(property==null)
-        {
-            property=new Properties();
-        }
+    private static final Properties property = new Properties();
+
+    static {
         try {
-            property.load(new FileInputStream("src/main/resources/config.properties"));
+            property.load(PropertyReader.class.getClassLoader().getResourceAsStream("config.properties"));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("Failed to load config.properties", e);
         }
-        return property.getProperty(key);
     }
 
+    public static String getProperty(String key) {
+        return property.getProperty(key);
+    }
 }

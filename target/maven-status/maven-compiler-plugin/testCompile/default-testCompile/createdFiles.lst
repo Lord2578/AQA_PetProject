@@ -1,6 +1,7 @@
-aqa_course\ui\AlbumAppleMusicTest.class
-aqa_course\api\Test3.class
 aqa_course\ui\StartAppleMusicTest.class
-aqa_course\api\Test2.class
+aqa_course\api\CreateBoardTest.class
 aqa_course\ui\CheckScheduleAppleMusicTest.class
-aqa_course\api\Test1.class
+aqa_course\api\CreateListTest.class
+aqa_course\ui\AlbumAppleMusicTest.class
+aqa_course\api\CreateCardTest.class
+aqa_course\DataProvider\TestDataProvider.class

@@ -2,6 +2,7 @@ package aqa_course.ui;
 
 import aqa_course.bo.AppleMusicBO;
 import aqa_course.util.AllureListener;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -12,6 +13,15 @@ public class StartAppleMusicTest {
 
         AppleMusicBO appleMusicBO = new AppleMusicBO();
         appleMusicBO.search("skrillex").checkResults();
+        appleMusicBO.openMusic();
+    }
+
+    @Test
+    public void playMusicFail() throws InterruptedException {
+
+        AppleMusicBO appleMusicBO = new AppleMusicBO();
+        appleMusicBO.search("skrillex").checkResults();
+        Assert.fail();
         appleMusicBO.openMusic();
     }
 }
