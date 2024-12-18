@@ -253,3 +253,42 @@
 2024-12-18 07:31:00 INFO  AppleMusicBO - Checking search results for musician
 2024-12-18 07:31:02 INFO  AppleMusicBO - Playing music
 2024-12-18 07:31:08 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 08:05:01 INFO  CreateBoardTest - Testing board creation with name: Test Board 1
+2024-12-18 08:05:01 INFO  ApiHelper - Creating board with name: Test Board 1
+2024-12-18 08:05:05 INFO  ApiHelper - Board created with ID: 676266102211ff654eeb96be
+2024-12-18 08:05:05 INFO  CreateBoardTest - Board created successfully with ID: 676266102211ff654eeb96be
+2024-12-18 08:05:05 INFO  ApiHelper - Deleting board with ID: 676266102211ff654eeb96be
+2024-12-18 08:05:06 INFO  ApiHelper - Board with ID: 676266102211ff654eeb96be deleted
+2024-12-18 08:05:06 INFO  CreateBoardTest - Board deleted with ID: 676266102211ff654eeb96be
+2024-12-18 08:05:06 INFO  CreateCardTest - Testing card creation in list: List 1 with name: Card 1
+2024-12-18 08:05:06 INFO  ApiHelper - Creating board with name: Temporary Board
+2024-12-18 08:05:07 INFO  ApiHelper - Board created with ID: 67626612268f6eb5dd4c04b9
+2024-12-18 08:05:07 INFO  ApiHelper - Creating list with name: List 1 on board ID: 67626612268f6eb5dd4c04b9
+2024-12-18 08:05:07 INFO  ApiHelper - List created with ID: 67626613d17b0f2b676f0403
+2024-12-18 08:05:07 INFO  ApiHelper - Creating card with name: Card 1 in list ID: 67626613d17b0f2b676f0403
+2024-12-18 08:05:07 INFO  ApiHelper - Card with name: Card 1 created in list ID: 67626613d17b0f2b676f0403
+2024-12-18 08:05:07 INFO  CreateCardTest - Card 'Card 1' created successfully in list ID: 67626613d17b0f2b676f0403
+2024-12-18 08:05:07 INFO  ApiHelper - Deleting board with ID: 67626612268f6eb5dd4c04b9
+2024-12-18 08:05:10 INFO  ApiHelper - Board with ID: 67626612268f6eb5dd4c04b9 deleted
+2024-12-18 08:05:10 INFO  CreateCardTest - Board deleted with ID: 67626612268f6eb5dd4c04b9
+2024-12-18 08:05:10 INFO  CreateListTest - Testing list creation on board: Board Alpha with name: List A
+2024-12-18 08:05:10 INFO  ApiHelper - Creating board with name: Board Alpha
+2024-12-18 08:05:10 INFO  ApiHelper - Board created with ID: 67626616043492f29d04c9a5
+2024-12-18 08:05:10 INFO  ApiHelper - Creating list with name: List A on board ID: 67626616043492f29d04c9a5
+2024-12-18 08:05:10 INFO  ApiHelper - List created with ID: 6762661638adfdf95568be03
+2024-12-18 08:05:10 INFO  CreateListTest - List created successfully with ID: 6762661638adfdf95568be03
+2024-12-18 08:05:10 INFO  ApiHelper - Deleting board with ID: 67626616043492f29d04c9a5
+2024-12-18 08:05:12 INFO  ApiHelper - Board with ID: 67626616043492f29d04c9a5 deleted
+2024-12-18 08:05:12 INFO  CreateListTest - Board deleted with ID: 67626616043492f29d04c9a5
+2024-12-18 08:05:20 INFO  AppleMusicAlbumBO - Checking search results for musician
+2024-12-18 08:05:22 INFO  AppleMusicAlbumBO - Opening music details
+2024-12-18 08:05:24 INFO  AppleMusicAlbumBO - Opening song album
+2024-12-18 08:05:25 INFO  AppleMusicAlbumBO - Playing album preview
+2024-12-18 08:05:26 INFO  AppleMusicCheckScheduleBO - navigating to apple music home page
+2024-12-18 08:05:26 INFO  AppleMusicCheckScheduleBO - navigate to radio tab
+2024-12-18 08:05:26 INFO  AppleMusicCheckScheduleBO - opening advanced tab
+2024-12-18 08:05:28 INFO  AppleMusicCheckScheduleBO - select radio schedule
+2024-12-18 08:05:29 INFO  AppleMusicCheckScheduleBO - U can see radio schedule
+2024-12-18 08:05:34 INFO  AppleMusicBO - Checking search results for musician
+2024-12-18 08:05:36 INFO  AppleMusicBO - Playing music
+2024-12-18 08:05:42 INFO  AppleMusicBO - Checking search results for musician

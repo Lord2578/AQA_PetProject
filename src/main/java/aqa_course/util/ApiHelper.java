@@ -12,9 +12,20 @@ public class ApiHelper {
 
     private static final Logger logger = LogManager.getLogger(ApiHelper.class);
 
+    private static String lastRequest;
+    private static String lastResponse;
+
     private static final String BASE_URL = PropertyReader.getProperty("baseURL");
     private static final String TRELLO_KEY = PropertyReader.getProperty("key");
     private static final String TRELLO_TOKEN = PropertyReader.getProperty("token");
+
+    public static String getLastRequest() {
+        return lastRequest;
+    }
+
+    public static String getLastResponse() {
+        return lastResponse;
+    }
 
     @Step("Create board with name: {name}")
     public static String createBoard(String name) {
@@ -31,26 +42,16 @@ public class ApiHelper {
                 .statusCode(200)
                 .extract().response();
 
+        lastRequest = "POST " + BASE_URL + "boards\n" +
+                "Params: name=" + name + ", key=" + TRELLO_KEY + ", token=" + TRELLO_TOKEN + "\n" +
+                "Headers: Accept=application/json, Content-Type=application/json";
+        lastResponse = response.getBody().asString();
+
         String boardId = response.jsonPath().getString("id");
         logger.info("Board created with ID: {}", boardId);
         return boardId;
     }
 
-    @Step("Update board name to: {newName} for board ID: {boardId}")
-    public static void updateBoardName(String boardId, String newName) {
-        logger.info("Updating board name to: {} for board ID: {}", newName, boardId);
-        given()
-                .queryParam("name", newName)
-                .queryParam("key", TRELLO_KEY)
-                .queryParam("token", TRELLO_TOKEN)
-                .header("Accept", "application/json")
-                .contentType(ContentType.JSON)
-                .when()
-                .put(BASE_URL + "boards/" + boardId)
-                .then().log().body()
-                .statusCode(200);
-        logger.info("Board name updated to: {}", newName);
-    }
 
     @Step("Delete board with ID: {boardId}")
     public static void deleteBoard(String boardId) {

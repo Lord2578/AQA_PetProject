@@ -1,0 +1,3 @@
+POST https://api.trello.com/1/boards
+Params: name=Test Board 1, key=fbe1cefe8af41c16b600e686a81463b3, token=ATTAe5637b0df4d00a2d978fc6fd2e29add1a48cd57f5043138e57ce5c60e605f2e49155C7AE
+Headers: Accept=application/json, Content-Type=application/json

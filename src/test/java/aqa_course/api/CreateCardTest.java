@@ -1,15 +1,13 @@
 package aqa_course.api;
 
-import aqa_course.util.AllureListener;
 import aqa_course.util.ApiHelper;
+import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({AllureListener.class})
 public class CreateCardTest {
 
     private static final Logger logger = LogManager.getLogger(CreateCardTest.class);
@@ -33,6 +31,9 @@ public class CreateCardTest {
 
         ApiHelper.createCard(listId, cardName);
         logger.info("Card '{}' created successfully in list ID: {}", cardName, listId);
+
+        Allure.addAttachment("Request", "text/plain", ApiHelper.getLastRequest(), "txt");
+        Allure.addAttachment("Response", "application/json", ApiHelper.getLastResponse(), "json");
 
         ApiHelper.deleteBoard(boardId);
         logger.info("Board deleted with ID: {}", boardId);

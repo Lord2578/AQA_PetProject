@@ -1,15 +1,13 @@
 package aqa_course.api;
 
-import aqa_course.util.AllureListener;
 import aqa_course.util.ApiHelper;
+import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({AllureListener.class})
 public class CreateListTest {
 
     private static final Logger logger = LogManager.getLogger(CreateListTest.class);
@@ -30,6 +28,9 @@ public class CreateListTest {
 
         String listId = ApiHelper.createList(boardId, listName);
         Assert.assertNotNull(listId, "List creation failed. ID is null");
+
+        Allure.addAttachment("Request", "text/plain", ApiHelper.getLastRequest(), "txt");
+        Allure.addAttachment("Response", "application/json", ApiHelper.getLastResponse(), "json");
 
         logger.info("List created successfully with ID: {}", listId);
 

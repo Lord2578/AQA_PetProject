@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 43.537 s <<< FAILURE! - in TestSuite
-playMusicFail(aqa_course.ui.StartAppleMusicTest)  Time elapsed: 7.626 s  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.991 s <<< FAILURE! - in TestSuite
+playMusicFail(aqa_course.ui.StartAppleMusicTest)  Time elapsed: 7.684 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at aqa_course.ui.StartAppleMusicTest.playMusicFail(StartAppleMusicTest.java:24)
 
